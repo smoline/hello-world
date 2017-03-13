@@ -1,8 +1,28 @@
+* {
+  background-color: Blue;
+  color: white;
+}
+
 html {
   text-size-adjust: 100%;
 }
 
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid white;
+}
+
 body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
+  margin: 30px;
+  font: 18px / 1 sans-serif;
+
+}
+
+#image {
+  border: 2px solid white;
+}
+
+.intro {
+  font-weight: bold;
 }

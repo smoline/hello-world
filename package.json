@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "deploy": "surge ./public --domain hello-world.sherilyn\n.surge.sh",
+    "deploy": "surge ./public --domain hello-world.sherilyn.surge.sh",
     "start": "browser-sync start --server 'public' --files 'public'"
   },
   "devDependencies": {

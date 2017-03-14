@@ -1,5 +1,4 @@
 * {
-  background-color: Blue;
   color: white;
 }
 
@@ -8,21 +7,29 @@ html {
 }
 
 h1 {
+  margin: 0px;
+  font-size: 50px;
   text-align: center;
   text-transform: uppercase;
-  border: 2px solid white;
+  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
 }
 
 body {
-  margin: 30px;
+  margin: 0px;
   font: 18px / 1 sans-serif;
 
 }
 
-#image {
-  border: 2px solid white;
+div.container {
+  align-items: center;
+  background: url('https://viralplanetextra.com/wp-content/uploads/2015/03/iStock_000018336050_Large.jpg') center center;
+  min-height: 800px;
+  width: 800px;
+  justify-content: center;
 }
 
 .intro {
   font-weight: bold;
+  margin: 80px;
+
 }

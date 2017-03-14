@@ -1,5 +1,5 @@
 * {
-  color: white;
+
 }
 
 html {
@@ -7,14 +7,16 @@ html {
 }
 
 h1 {
+  color: white;
   margin: 0px;
   font-size: 50px;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+  text-shadow: 0px 3px 5px #ADADAF;
 }
 
 body {
+  color: white;
   margin: 0px;
   font: 18px / 1 sans-serif;
 
@@ -26,6 +28,24 @@ div.container {
   min-height: 800px;
   width: 800px;
   justify-content: center;
+}
+
+.navigation {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 800px;
+}
+
+ul {
+  margin: 30px auto;
+  text-align: center;
+}
+
+li {
+    display: inline-block;
+    text-align: left;
+    padding: 0 40px;
 }
 
 .intro {
